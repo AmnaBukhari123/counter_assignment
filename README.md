@@ -1,4 +1,3 @@
-
 import time, sys, keyboard
 
 target = int(sys.argv[1])
@@ -10,4 +9,3 @@ for counter in range(1, target + 1):
 
     print(counter)
     time.sleep(1)
-
