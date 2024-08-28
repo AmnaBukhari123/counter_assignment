@@ -1,11 +1,4 @@
-import time, sys, keyboard
+Title: Commandline app assignment
 
-target = int(sys.argv[1])
-
-for counter in range(1, target + 1):
-    if keyboard.is_pressed('space'):
-        print("Counter stopped by pressing space key.")
-        break
-
-    print(counter)
-    time.sleep(1)
+Description: Counter should continue counting till target, but should stop once interrupted by
+the space key. 
